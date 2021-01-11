@@ -1,1 +1,0 @@
-# fridaynext.github.io
