@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Work Experience
   id: experiences
   enable: true
   weight: 3
@@ -11,63 +11,124 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    name: eSalon
+    url: "https://www.esalon.com"
+    location: El Segundo, CA
+    logo: /images/sections/experiences/esalon.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: eSalon creates custom at-home hair color, made just for you. Our licensed colorists make each shade from scratch to fit your color goals. Our hair dye has won 8 Allure Best of Beauty Awards and 4 Readers' Choice Awards, making us a Hall of Fame member.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Software Engineering Manager
+    start: Feb 2024
+    end: Jan 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Oversaw full development lifecycle, blending managerial duties with hands-on coding.
+    - Utilized Agile principles through weekly stand-ups, sprint planning, and retrospective meetings.
+    - Regularly pushed code changes to QA environment for review, then deployed to production.
+    - Mentored junior developers, fostering a collaborative learning environment while ensuring software platform maintenance and enhancement.
+    - Champion for software development best practices, utilizing cross-functional teamwork and stakeholder input to align technical solutions with business goals.
+    - Contributed to building a React Native warehouse app to reduce friction when packing items for shipment, connected to our custom REST API.
+    - Created rich documentation for iterative processes to streamline future workflows.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
+  - designation: Software Engineer
+    start: Jan 2021
+    end: Feb 2024
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Maintained / expanded software platform while establishing software development best practices.
+    - Added functionality to various third-party integrations with our platform, including Unbounce, VWO for A/B testing, Google Analytics, and more.
+    - Collaborated with cross-functional teams and stakeholders to determine and implement business/technical requirements.
+    - Regularly worked backend tickets in PHP (CakePHP MVC framework), skilled in front-end development with Bootstrap, SCSS, jQuery, Vanilla JS, and React for seamless user experiences.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    name: Friday Next
+#    url: "https://www.example.com"
+    location: San Antonio, TX
+    logo: /images/sections/experiences/friday-next.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Web developer boutique shop, offering site design and development, as well as security upgrades, enhancements, and audits.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: WordPress Web Developer
+    start: June 2011
+    end: Apr 2021
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Experience writing custom PHP, SQL, JS, CSS, HTML, and complex relational database queries by way of custom plugins and themes for clients’ WordPress installations.
+    - Proficient in building and managing Linux servers with LEMP and LAMP stacks, including Redis caching with custom nginx configurations for superb performance.
+    - Implemented cloud security best practices, including MFA, IAM, ufw, and fail2ban.
+    - Troubleshooting and repair of email servers, including setup of DKIM and SPF records.
+    - Made complex technical topics simple for non-technical user control of site and server interfaces.
+    - Performed bespoke data transfers between proprietary e-commerce systems and WooCommerce.
+    - Served as final point of escalation for repair of mission-critical servers, services, and sites.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    name: Codeup
+#    url: "https://www.example.com"
+    location: San Antonio, TX
+    logo: /images/sections/experiences/codeup.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Coding bootcamp, teaching students full-stack skills with Java, Spring Boot, Thymeleaf, Bootstrap, jQuery, JS, CSS.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Web Development Instructor
+    start: Jan 2020
+    end: Feb 2021
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Provided instruction / tutoring of Full Stack Web Development to students new to coding.
+    - Delivered lessons to explain complex topics during a fast-paced 20-week bootcamp, covering Java, Spring Boot, MySQL, jQuery, Javascript, HTML, and CSS.
+    - Strengthened personal MVC & OOP skills by developing novel lecture content, examples, and demos.
+    - Contributed changes to the curriculum with a VCS workflow, using Github.
+
+- company:
+    name: Hazoor Partners
+    url: "https://www.hazoorpartners.com/"
+    location: Austin, TX
+    logo: /images/sections/experiences/hazoor-partners.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Cryptocurrency hedge fund with a dynamic approach to investing through uniquely aligned capital and long-term strategies for intentional growth.
+  positions:
+  - designation: Director of Security
+    start: Jun 2017
+    end: Nov 2018
+    responsibilities:
+    - Led cybersecurity efforts for a $100m cryptocurrency hedge fund by implementing robust IAM protocols, including MFA, role-based access control, and regular security audits. This resulted in a significant reduction in potential vulnerabilities and improved overall data protection.
+    - Built a Go-based tracking tool for Decred cryptocurrency staking, streamlining transaction management for the firm. This tool simplified reporting and analysis, providing dynamically updated tax records for the finance team, easily saving 20 hours of manual research time per month.
+    - Conducted in-depth research on emerging cryptocurrencies, leveraging my understanding of identity governance and administration principles to provide data-driven insights that informed investment decisions and contributed to portfolio growth and diversification.
+    - Implemented a disaster recovery plan utilizing Shamir’s secret sharing for multi-key recovery requirements, using the Glacier Protocol as inspiration.
+
+- company:
+    name: Northrop Grumman
+    url: "https://www.northropgrumman.com"
+    location: San Antonio, TX
+    logo: /images/sections/experiences/northrop-grumman.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: Space and Missile Defense contractor.
+  positions:
+  - designation: Electrical Engineer
+    start: Nov 2009
+    end: May 2011
+    responsibilities:
+    - Engineered the design of weapon testing equipment, including upkeep of military documents pertaining to ICBM re-entry systems and vehicles.
+
+- company:
+    name: Southwest Research Institute
+    url: "https://www.swri.org/"
+    location: San Antonio, TX
+    logo: /images/sections/experiences/swri.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/experiences/company3.jpg
+    overview: R&D problem solvers, providing independent, premier services to government and industry clients.
+  positions:
+  - designation: Student Engineer
+    start: Feb 2008
+    end: July 2009
+    responsibilities:
+    - Research and development of autonomous vehicles.
+    - Developed software in Java and C# to monitor and report network communication.
+    - Gained creative problem-solving and teamwork skills.
