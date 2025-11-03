@@ -3,6 +3,10 @@ baseURL: https://fridaynext.github.io
 languageCode: en
 title: "The Restless Engineer"
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 # Use Hugo modules to add theme
 module:
   imports:
