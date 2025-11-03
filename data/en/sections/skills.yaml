@@ -11,61 +11,81 @@ section:
 
 # filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+  - name: All
+    filter: "all"
+  - name: Basic
+    filter: "basic"
+  - name: Container
+    filter: "container"
+  - name: Language
+    filter: "language"
+  - name: Networking
+    filter: "networking"
+  - name: Troubleshooting
+    filter: "troubleshooting"
+  - name: DevOps
+    filter: "devops"
+  - name: Others
+    filter: "others"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: "Deeply experienced with Linux, from basic shell scripting to system administration and performance tuning. Comfortable in a terminal, and adept at diagnosing and resolving complex issues."
+    categories: ["troubleshooting", "devops"]
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: Network Configuration
+    logo: /images/sections/skills/networking.svg
+    summary: "Experienced in configuring and troubleshooting complex network setups, including DNS, routing, and firewall configuration."
+    categories: ["networking", "devops"]
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  - name: Automation
+    logo: /images/sections/skills/automation.svg
+    summary: "Passionate about automating repetitive tasks, leveraging scripting and CI/CD pipelines to improve efficiency and reliability."
+    categories: ["networking", "devops"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  - name: Troubleshooting
+    logo: /images/sections/skills/troubleshooting.svg
+    summary: "Proven ability to pragmatically diagnose and resolve complex technical issues, consistently finding the root cause of problems."
+    categories: ["troubleshooting", "devops"]
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+  - name: Bash/Shell Scripting
+    logo: /images/sections/skills/shell.svg
+    summary: "Experienced in writing bash and shell scripts for automating tasks and managing Linux systems."
+    categories: ["troubleshooting", "devops"]
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  - name: Go Development
+    logo: /images/sections/skills/go.png
+    summary: "Utilized Go extensively at Hazoor Partners to develop a performant and scalable monitoring tool for the Decred cryptocurrency network. Designed and implemented a solution that streamlined reporting and provided critical insights into staking activity on the blockchain."
+    categories: ["basic", "language"]
+    url: "https://golang.org/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: PHP/MySQL
+    logo: /images/sections/skills/php.svg
+    summary: "Extensive experience developing and maintaining web applications with PHP and MySQL, including database design, query optimization, and integration with various frameworks."
+    categories: ["language", "basic"]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  - name: Cloud Computing
+    logo: /images/sections/skills/cloud.png
+    summary: "Worked with major clouds such as Digital Ocean, Linode, etc."
+    categories: ["others"]
+
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "Currently running over 50 containers for a self-hosted homelab setup. Very comfortable spinning up and troubleshooting any Docker-related issues."
+    categories: ["container"]
+    url: "https://www.docker.com/"
+
+  - name: Prometheus
+    logo: /images/sections/skills/prometheus.png
+    summary: "Capable of setup, configure Prometheus metrics. Also, experienced with configuring metric exporters."
+    categories: ["basic"]
+    url: "https://prometheus.io/"
+
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+    categories: ["basic"]
+    url: "https://git-scm.com/"
