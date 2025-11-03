@@ -3,7 +3,7 @@ name: "Casey Friday"
 nickname: "Casey"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I'm"
-image: "images/author/john.png"
+image: "images/author/casey.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "dev@caseyfriday.com"
@@ -14,8 +14,10 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a Software Engineer
+  - Always optimizing, even when it’s not strictly necessary.
+  - I host my own data, and I know where it’s been.
+  - I thrive on complexity.
   - I am a Devops enthusiast
-  - I love the command line
-  - I run locally hosted services
-  - I love to solve digital puzzles
+  - I’m powered by curiosity.
+  - I love solving digital puzzles
+  - Comfortable with chaos, fluent in order.
