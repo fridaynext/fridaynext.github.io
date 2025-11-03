@@ -7,7 +7,6 @@ image: "images/author/casey.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
   email: "dev@caseyfriday.com"
-  phone: "+12108641838"
   github: fridaynext
   linkedin: caseyfriday
 #  researchgate: john-doe
